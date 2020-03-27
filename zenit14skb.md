@@ -1,4 +1,4 @@
-# Konzumáciou k lepšej nálade {body=15 cas=100}
+# Konzumáciou k lepšej nálade
  
 Hroch Karol nemá v poslednej dobe najlepšiu náladu. S pochmúrnym výrazom
 tváre pláva z jednej strany jazierka na druhú a nemá chuť sa ukazovať ľuďom. Po porade s hroším
