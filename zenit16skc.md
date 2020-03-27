@@ -1,4 +1,4 @@
-# Pažravé potvory {body=15 cas=700}
+# Pažravé potvory
 
 Bonifác, Kleofáš a Hortenzia sú traja kamaráti, ktorí milujú sladkosti. Bonifác si raz tak 
 išiel zo školy, keď tu zrazu pred ním zastal podivný pán v dlhom kabáte. I vraví mu, že má 
