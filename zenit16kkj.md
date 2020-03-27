@@ -1,4 +1,4 @@
-# Javorová Polička {body=40 cas=3500}
+# Javorová Polička
 
 Všetci máme doma poličku. Čo sa stane s poličkou, ak ju zopár mesiacov necháme na pokoji?
 Presne tak, napadne na ňu vrstva prachu a potom vám mama nedá pokoja, kým sa ho nezbavíte.
@@ -15,7 +15,7 @@ prachu sa nachádza na nejakom súvislom úseku poličky.
 
 ## Vstup a Výstup
 V prvom riadku sú čísla $N,Q$: dĺžka poličky a počet udalostí.
-V druhom riadku je N čísel: výška vrstvy prachu na každom z N metrov poličky.
+V druhom riadku je $N$ čísel: výška vrstvy prachu na každom z $N$ metrov poličky.
 
 Nasleduje $Q$ riadkov v tvare $o\ a\ b\ c$.
 Ak $o = 0$, vypíšte výšku najvyššej vrstvy prachu na poličke od metra $a$ po meter $b$. V tomto prípade je $c = 0$ a môžete ho ignorovať.
@@ -24,7 +24,7 @@ Inak $o = 1$, a znamená, že na každý meter od $a$ po $b$ napadla vrstva prac
 Vstup spĺňa nasledujúce obmedzenia:
 
 * $1 \leq Q,N \leq 5 \cdot 10^5$
-* začiatočná vrstva prachu na každom metri bude celé číslo medzi $1$ a $10^9$
+* Začiatočná vrstva prachu na každom metri bude celé číslo medzi $1$ a $10^9$
 * $1 \leq a \leq b \leq N$.
 * $c = 0$ ak $o = 0$, inak platí $1 \leq c \leq 10^9$
 
