@@ -1,4 +1,4 @@
-# Rámčekovač {body=10 cas=100}
+# Rámčekovač
 
 Zvieratká sa nedávno stretli s manažérom predaja a propagácie ZOO. Okrem iného sa mu sťažovali, že
 prezentácia jednotlivých druhov na paneloch pred klietkami pôsobí nezáživne. Manažér ich pripomienky
