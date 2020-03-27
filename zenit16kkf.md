@@ -18,7 +18,7 @@ Povieme si, že fraktál nultej generácie je iba znak `'#'` (mriežka).
 Nech dĺžka strany vzoru je $s$.
 Vo všeobecnosti platí, že fraktál $n+1$ generácie vznikne z $n$-tej generácie
 tak, že zoberieme $s \times s$ mriežku a do každého políčka mriežky položíme
-jednu kópiu fraktálu $n$-tej generácie, ak sa vo vzore na danom
+jednu kópiu fraktálu $n$-tej generácie, ak sa vo **vzore** na danom
 políčku nachádza mriežka. Ak sa vo vzore na danom mieste nachádza medzera,
 na dané miesto umiestnime rovnako veľký štvorec pozostávajúci iba z medzier.
 
@@ -52,8 +52,9 @@ prvej generácie, lebo vzor má v strede medzeru.
 
 ## Vstup
 
-V prvom riadku sa nachádzajú dve celé čísla $s$, $g$ -- dĺžka strany vzoru a
-číslo generácie. Pričom platí, že $2 \leq s \leq 20$ a $0 \leq g \leq 9$.
+V prvom riadku sa nachádzajú dve celé čísla $s$, $g$ -- dĺžka strany
+vzoru a číslo generácie, ktorú máte vykresliť. Platí pritom,
+že $2 \leq s \leq 20$ a $0 \leq g \leq 9$.
 V každom zo zvyšných $s$ riadkov sa nachádza po $s$ znakov, dokopy tvoriace
 vzor fraktálu popísaný medzerami a mriežkami. Nezabudnite, že každý riadok je
 ukončený znakom konca riadka.
@@ -62,15 +63,13 @@ Parametre na vstupe budú zvolené tak, aby veľkosť výstupu nepresiahla $600\
 
 ## Výstup
 
-Na výstupe sa nachádza obrázok fraktálu, ktorý sme si definovali vyššie.
+Na výstupe vypíšte obrázok fraktálu $g$-tej generácie so vzorom zo zadania. Pri
+kreslení fraktálu použite pravidlá, ktoré sme popísali vyššie.
 Každé dva znaky fraktálu (medzera alebo mriežka) oddeľte jednou medzerou navyše.
 Za posledným znakom v každom riadku už nedávajte medzeru.
 
 **Pozor, výstup v tejto úlohe je pomerne veľký a pomalé vypisovanie to nemusí stihnúť v čase.
-V Jave odporúčame použiť BufferedWriter, v Pythone vypisovať celé reťazce a použiť vhodné dátové
-štruktúry na reprezentáciu meniaceho sa reťazca (napr. bytearray).** Na testovači je okrem
-doleuvedených ešte jeden vzorový vstup so stranou $2$, generáciou $9$, pozostávajúci zo samých
-mriežok, aby ste videli rýchlosť vášho riešenia na hranične veľkom vstupe.
+V Jave odporúčame použiť BufferedWriter, v Pythone vypisovať celé reťazce a použiť vhodné dátové štruktúry na reprezentáciu meniaceho sa reťazca (napr. bytearray alebo list).**
 
 ## Príklad
 
@@ -115,4 +114,41 @@ mriežok, aby ste videli rýchlosť vášho riešenia na hranične veľkom vstup
 # # # # # # # # #
 #   # #   # #   #
 # # # # # # # # #
+```
+
+```vstup
+3 3
+###
+# #
+###
+```
+
+```vystup
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+#   # #   # #   # #   # #   # #   # #   # #   # #   #
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # #       # # # # # #       # # # # # #       # # #
+#   #       #   # #   #       #   # #   #       #   #
+# # #       # # # # # #       # # # # # #       # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+#   # #   # #   # #   # #   # #   # #   # #   # #   #
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # #                   # # # # # # # # #
+#   # #   # #   #                   #   # #   # #   #
+# # # # # # # # #                   # # # # # # # # #
+# # #       # # #                   # # #       # # #
+#   #       #   #                   #   #       #   #
+# # #       # # #                   # # #       # # #
+# # # # # # # # #                   # # # # # # # # #
+#   # #   # #   #                   #   # #   # #   #
+# # # # # # # # #                   # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+#   # #   # #   # #   # #   # #   # #   # #   # #   #
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # #       # # # # # #       # # # # # #       # # #
+#   #       #   # #   #       #   # #   #       #   #
+# # #       # # # # # #       # # # # # #       # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+#   # #   # #   # #   # #   # #   # #   # #   # #   #
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
 ```
